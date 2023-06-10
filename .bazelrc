@@ -1,0 +1,5 @@
+build --action_env=BAZEL_CXXOPTS="-std=c++2a"
+
+build:debug --strip=never
+build:debug --copt -O0
+build:debug --copt -g
